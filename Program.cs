@@ -3,7 +3,7 @@ using System;
 using System.Xml;
 using System.Xml.Serialization;
 
-static void Serialize<T>(T obj, string filePath)
+static void Serialize<T>(T obj, string  filePath)
 {
     XmlSerializer serializer = new XmlSerializer(typeof(T));
 
